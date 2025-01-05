@@ -1,5 +1,9 @@
-.blog{
+nav > ul{
     display: flex;
-    background-color: tomato;
-    column-gap: 12px;
+    list-style: none;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    margin-right: 15px;
 }
