@@ -1,9 +1,37 @@
 nav > ul{
     display: flex;
+    gap: 15px;
+    position: relative;
+}
+nav li{
     list-style: none;
+    padding: 10px;
 }
 
-nav > ul > li > a{
+nav li a{
     text-decoration: none;
-    margin-right: 15px;
+    color: #000;
+}
+
+nav li:hover{
+    background-color: tomato;
+    color: #fff;
+}
+
+/* Nested menu styles */
+
+nav li .dropDown{
+    display: none;
+    background-color: tomato;
+    position: absolute;
+    border-radius: 20px;
+    color: wheat;
+    padding-left: 10px;
+    top: 35px;
+    width: 50%;
+
+}
+
+nav li:hover .dropDown{
+    display: block;
 }
