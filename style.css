@@ -41,10 +41,10 @@
     font-size: 16px;
     color: #fff;
     line-height: 28px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
  .btn{
-    padding: 12px 32px;
+    padding: 15px 25px;
     background-color: #52C303;
     border: none;
     color: #fff;
@@ -61,7 +61,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    margin: auto;
 }
 
 .card-info{
@@ -71,6 +71,7 @@
     align-items: center;
     flex-direction: column;
     width: 1320px;
+    text-align: center;
 }
 
 .cardSub{
@@ -83,6 +84,7 @@
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 24px;
+    color: #101010;
 }
 
 .card-items{
@@ -90,20 +92,22 @@
     gap: 15px;
     align-items: center;
     justify-content: center;
-
+    margin-bottom: 35px;
 }
 
 .info{
-    width: 550px
+    width: 550px;
 }
 
 .card-items .card{
-    width: 380px
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
 }
 
 .card img{
-    margin-bottom: 25px;
-    width: 380px;
+    width: 100%; 
 }
 
 .card-items .card span{
@@ -111,17 +115,14 @@
     background-color: #e5f6d9;
     color: #101010;  
     font-size: 18px;
-    margin-bottom: 20px; 
     border-radius: 8px;
     font-weight: 600;
 }
 
 .card h2{
-    margin-top: 25px;
     font-size: 30px;
-    margin-bottom: 10px;
     font-weight: 600;
-
+    color: #101010;
 }
 
 .card p{
@@ -129,5 +130,4 @@
     color: #101010;
     font-weight: 400;
     line-height: 25px;
-    margin-bottom: 35px;
 }
